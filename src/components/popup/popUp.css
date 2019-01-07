@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popUp h2 {
+  color: #fff;
+}
+
+button {
+  width: 40%;
+  height: 50px;
+  margin-bottom: 3px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: #0d0027;
+  transition: background-color 100ms linear;
+}
+
+.heal {
+  background-color: #ff4040;
+}
+
+.heal:hover {
+  background-color: rgb(230,64,64);
+}
+
+.damage {
+  background-color: #66cccc;
+}
+
+.damage:hover {
+  background-color: rgb(102,204,130);
+}
